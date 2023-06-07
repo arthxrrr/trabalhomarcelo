@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de contato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <style>
+      .font-poppins {
+        font-family: 'Poppins', sans-serif;
+    }
+      #divform {
+        max-width: 300px; 
+        height:auto; 
+        float:none; 
+        margin:auto; 
+        padding:1em; 
+        margin-bottom:1em; 
+        border-radius:6px; 
+        background:white; 
+        box-shadow: 1px 0px 1.2px 0px #ccc; 
+        position:relative; 
+    }
+
+    label {
+        float:left; 
+        width:100%; 
+        margin-bottom:1.2em; 
+    }
+
+    p {
+        width: 100%;
+        float: left;
+        color: #999;
+        margin-bottom: 6px;
+        font-family:Arial, Helvetica, sans-serif 
+    }
+
+    input {
+        font-size:1em; 
+        color:#555; 
+        border:1px #dee5ed solid; 
+        border-radius:4px; 
+        padding:0.6em; 
+    }
+
+    textarea {
+        color:#555; 
+        border:1px #dee5ed solid; 
+        border-radius:4px; 
+        padding:0.6em;  
+    }
+
+    button {
+        background-color: blue;
+        width:100%;
+        border-radius:6px;  
+        border:0; 
+        padding:0.6em 0em; 
+        color:white; 
+        font-size:1.3em; 
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <header class="blog-header py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+              <a class="btn btn-sm btn-outline-secondary" href="pag2.html" target="_parent">Contato</a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="blog-header-logo text-dark" href="index.html" target="_parent"> <strong>Página ínicial</strong></a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              <a class="btn btn-sm btn-outline-secondary" href="pag3.html" target="_parent">Formações academicas</a>
+            </div>
+          </div>
+    <div class="py-5 text-center">
+        <div>
+            <div class="py-5 text-center">
+              <img class="d-block mx-auto mb-4 img-fluid" src="juuzou.jpg" alt="Imagem responsiva"  width="90">
+              <h2 id="h2form">Formulário de contato</h2>
+              <br>
+    <div id="divform">
+        <form>
+            <label>
+                <p> Digite seu nome </p>
+                <input type="text" name="nome">
+            </label>
+            
+            <label>
+                <p> Digite seu e-mail </p>
+                <input type="text" name="email" placeholder="exemplo@gmail.com">
+            </label> 
+            <label>
+                <p> Digite sua mensagem </p>
+                 <textarea name="msg" rows="2"></textarea> 
+            </label>
+            <button> Enviar mensagem </button>
+        
+        </form>
+        <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+    </div>
+            </div>
+        </div>
+        
+        
+</body>
+</html>

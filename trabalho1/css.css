@@ -1,0 +1,69 @@
+#titulo1 {
+    color:red;
+    font-family: 'Poppins', sans-serif;
+}
+
+#li1 {
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+#p1 {
+    color: black;
+}
+
+#h5verde {
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}
+
+#li2 {
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}
+
+#h5laranja {
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+}
+
+#li3 {
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: blue;
+}
+
+#aa {
+    color: white;
+    padding-left: 20px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+}
+
+#prodape {
+    color: white;
+    position: absolute;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -80px;
+    margin-left: 140px;
+}
+
+#rodapexxx {
+    margin-left: 100px;
+    margin-bottom: 55px;
+}
+
+#globocom {
+    margin-left: 100px;
+    margin-top: -45px;
+}
+
+footer {
+    height: 50px;
+}
+
